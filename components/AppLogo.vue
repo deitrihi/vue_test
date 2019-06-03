@@ -4,9 +4,20 @@
     <div class="Triangle Triangle--one"/>
     <div class="Triangle Triangle--three"/>
     <div class="Triangle Triangle--four"/>
+    <logo2></logo2>
   </div>
 </template>
 
+
+<script>
+import logo2 from '~/components/logo2.vue'
+
+export default {
+  components: {
+    logo2
+  }
+}
+</script>
 <style>
 .VueToNuxtLogo {
   display: inline-block;
